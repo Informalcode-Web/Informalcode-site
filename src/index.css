@@ -55,6 +55,157 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+body {
+  font-family:"Open Sans",sans-serif;
+}
+
+#page-header {
+  width: 100%;
+  position: fixed;
+  top:0;
+  z-index: 1;
+  box-shadow: 3px 5px 20px 0px #eeeeeeee;
+}
+
+#page-header .navbar-brand a {
+  font-size: 20px;
+}
+
+#page-header .navbar-nav .nav-link {
+  font-size: 20px;
+  color: #463f57;
+  font-weight: bold;
+}
+
+#page-header .navbar-nav .btn {
+  color: #fff !important;
+  background: #0097b2 !important;
+  font-weight: bold;
+}
+
+#page-header .navbar-nav .btn:hover {
+  color: #0097b2 !important;
+  background: #fff !important;
+  border: 1px solid #0097b2 !important;
+}
+
+#page-header .navbar-nav .nav-link.active {
+  color: #0097b2;
+}
+
+#page-header .navbar-nav .nav-link:hover {
+  color: #0097b2;
+}
+
+#page-footer {
+  position: absolute;
+}
+
+#page-footer .web-footer p {
+  font-size: 12px;
+  color: #463f57;
+}
+
+.body-content .index-section {
+  width: 100%;
+  height: fit-content;
+}
+
+.body-content .index-section p {
+  font-size: 50px;
+  color: #463f57;
+  font-weight: bold;
+}
+
+.body-content .index-section .for-u {
+  color:#0097b2;
+}
+
+.body-content .index-section .sloagan-desc {
+  font-size: 16px;
+  font-weight: lighter;
+  color: #463f57;
+}
+
+.body-content .index-section .index-section-image {
+  background-image: url(./images/undraw_project_team_lc5a.png);
+  background-repeat:no-repeat;
+  background-size: cover;
+  
+}
+
+#animated-container {
+  white-space: nowrap;
+  overflow: hidden;
+  height: 60px;
+}
+
+.animated-text {
+  display: none;
+  font-size: 30px !important;
+  color: #0097b2 !important;
+}
+
+.body-content .index-section .btn-started {
+  width: 170px;
+  height: 45px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  background: #0097b2;
+}
+
+.body-content .services-section {
+  background: #f5f8fd;
+  height: fit-content;
+}
+
+  .body-content .services-section .service-heading h1{
+      text-align: center;
+      color: #463f57;
+      font-weight: bold;
+  }
+
+  .body-content .services-section .service-heading p {
+      text-align: center;
+      width: 30%;
+  }
+
+  .body-content .services-section .card {
+      height: 100%;
+      border: none;
+      box-shadow: 5px 5px 20px 5px #eeeeeeee;
+      border-radius: 10px;
+  }
+
+.body-content .services-section .card h4 {
+  color: #463f57;
+  font-weight: bold;
+}
+
+.body-content .services-section .card h4:hover {
+  color: #0097b2;
+}
+
+.body-content .services-section .service-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #f5f8fd;
+}
+
+.body-content .services-section .service-icon i{
+  font-size: 25px;
+  color: #0097b2;
+}
+
+.body-content .services-section p {
+  font-size: 20px;
+  text-align: center;
+  color: #463f57;
+
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
