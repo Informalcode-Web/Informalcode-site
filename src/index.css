@@ -101,8 +101,8 @@ body {
   position: absolute;
 }
 
-#page-footer .web-footer p {
-  font-size: 12px;
+#page-footer .web-footer span {
+  font-size: 14px;
   color: #463f57;
 }
 
@@ -194,8 +194,8 @@ body {
   background: #f5f8fd;
 }
 
-.body-content .services-section .service-icon i{
-  font-size: 25px;
+.body-content .services-section .service-icon svg{
+  font-size: 45px;
   color: #0097b2;
 }
 

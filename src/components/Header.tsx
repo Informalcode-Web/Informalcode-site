@@ -5,7 +5,7 @@ import Logo from '../images/Informalcode-logo.png'
 const Header: React.FC = () => {
   return (
     <header id="page-header">
-      <nav className="navbar navbar-expand-lg bg-white px-5 px-sm-1">
+      <nav className="navbar navbar-expand-lg bg-white px-xl-5 px-sm-1">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img src={Logo} width="200" height="60" alt="Logo" />
