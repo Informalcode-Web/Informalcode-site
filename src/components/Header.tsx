@@ -8,7 +8,7 @@ const Header: React.FC = () => {
       <nav className="navbar navbar-expand-lg bg-white px-xl-5 px-sm-1">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <img src={Logo} width="200" height="60" alt="Logo" />
+            <img src={Logo} width="150" height="45" alt="Logo" />
           </a>
           <button
             className="navbar-toggler"

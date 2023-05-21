@@ -1,4 +1,5 @@
 import React from "react";
+import bgImage from '../images/Tema-pana-red-cropped.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
 import {
@@ -12,7 +13,7 @@ import {
 const HomeSection: React.FC = () => {
   return (
     <div id="home" className="index-section p-5 p-xl-5">
-      <div className="row mt-5">
+      <div className="row mt-3 mb-5">
         <div className="col-xl-6 col-md-6 col-sm-12 col-12 p-xl-5">
           <p className="mb-0">Unleashing the Potential</p>
           <p className="mb-0">of Technology for</p>
@@ -28,7 +29,9 @@ const HomeSection: React.FC = () => {
           </div>
           <button className="btn btn-started">Get Started</button>
         </div>
-        <div className="col-xl-6 col-md-6 col-sm-12 col-12 p-xl-5 index-section-image"></div>
+        <div className="col-xl-6 col-md-6 col-sm-12 col-12 p-xl-5 index-section-image">
+          <img src={bgImage} ></img>
+        </div>
       </div>
     </div>
   );
@@ -47,7 +50,7 @@ const ServicesSection: React.FC = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col-xl-4 col-md-4 col-sm-6 col-12 p-xl-5 p-sm-2 p-2">
+        <div className="col-xl-4 col-md-4 col-sm-6 col-12 p-xl-5 p-sm-2 p-2 px-4">
           <div className="card py-3 px-4 align-items-center">
             <div className="service-icon mb-3 align-items-center d-flex justify-content-center">
               <FontAwesomeIcon icon={faHtml5} />
@@ -61,7 +64,7 @@ const ServicesSection: React.FC = () => {
             </p>
           </div>
         </div>
-        <div className="col-xl-4 col-md-4 col-sm-6 col-12 p-xl-5 p-sm-2 p-2">
+        <div className="col-xl-4 col-md-4 col-sm-6 col-12 p-xl-5 p-sm-2 p-2 px-4">
           <div className="card py-3 px-4 align-items-center">
             <div className="service-icon mb-3 align-items-center d-flex justify-content-center">
               <FontAwesomeIcon icon={faDesktop} />
@@ -75,7 +78,7 @@ const ServicesSection: React.FC = () => {
             </p>
           </div>
         </div>
-        <div className="col-xl-4 col-md-4 col-sm-6 col-12 p-xl-5 p-sm-2 p-2">
+        <div className="col-xl-4 col-md-4 col-sm-6 col-12 p-xl-5 p-sm-2 p-2 px-4">
           <div className="card py-3 px-4 align-items-center">
             <div className="service-icon mb-3 align-items-center d-flex justify-content-center">
               <FontAwesomeIcon icon={faMobileAlt} />
@@ -91,7 +94,7 @@ const ServicesSection: React.FC = () => {
           </div>
         </div>
 
-        <div className="col-xl-4 col-md-4 col-sm-6 col-12 p-xl-5 p-sm-2 p-2">
+        <div className="col-xl-4 col-md-4 col-sm-6 col-12 p-xl-5 p-sm-2 p-2 px-4">
           <div className="card py-3 px-4 align-items-center">
             <div className="service-icon mb-3 align-items-center d-flex justify-content-center">
               <FontAwesomeIcon icon={faDatabase} />
@@ -106,7 +109,7 @@ const ServicesSection: React.FC = () => {
             </p>
           </div>
         </div>
-        <div className="col-xl-4 col-md-4 col-sm-6 col-12 p-xl-5 p-sm-2 p-2">
+        <div className="col-xl-4 col-md-4 col-sm-6 col-12 p-xl-5 p-sm-2 p-2 px-4">
           <div className="card py-3 px-4 align-items-center">
             <div className="service-icon mb-3 align-items-center d-flex justify-content-center">
               <FontAwesomeIcon icon={faPaintbrush} />
@@ -121,7 +124,7 @@ const ServicesSection: React.FC = () => {
             </p>
           </div>
         </div>
-        <div className="col-xl-4 col-md-4 col-sm-6 col-12 p-xl-5 p-sm-2 p-2">
+        <div className="col-xl-4 col-md-4 col-sm-6 col-12 p-xl-5 p-sm-2 p-2 px-4">
           <div className="card py-3 px-4 align-items-center">
             <div className="service-icon mb-3 align-items-center d-flex justify-content-center">
               <FontAwesomeIcon icon={faGears} />
