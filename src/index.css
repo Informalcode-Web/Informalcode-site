@@ -29,6 +29,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-family:"Open Sans",sans-serif;
 }
 
 h1 {
@@ -55,10 +56,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-body {
-  font-family:"Open Sans",sans-serif;
-}
-
 #page-header {
   width: 100%;
   position: fixed;
@@ -79,14 +76,14 @@ body {
 
 #page-header .navbar-nav .btn {
   color: #fff !important;
-  background: #0097b2 !important;
+  background: #F67280 !important;
   font-weight: bold;
 }
 
 #page-header .navbar-nav .btn:hover {
-  color: #0097b2 !important;
+  color: #F67280 !important;
   background: #fff !important;
-  border: 1px solid #0097b2 !important;
+  border: 1px solid #F67280 !important;
 }
 
 #page-header .navbar-nav .nav-link.active {
@@ -160,7 +157,7 @@ body {
   height: fit-content;
 }
 
-  .body-content .services-section .service-heading h1{
+  .body-content .services-section .service-heading h2{
       text-align: center;
       color: #463f57;
       font-weight: bold;
@@ -176,6 +173,11 @@ body {
       border: none;
       box-shadow: 5px 5px 20px 5px #eeeeeeee;
       border-radius: 10px;
+      transition: all .3s ease-in-out;
+    }
+
+  .body-content .card:hover {
+    transform: scale(1.05);
   }
 
 .body-content .services-section .card h4 {
@@ -200,7 +202,7 @@ body {
 }
 
 .body-content .services-section p {
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   color: #463f57;
 
@@ -217,4 +219,51 @@ body {
   button {
     background-color: #f9f9f9;
   }
+}
+
+/* Extra small devices (phones) */
+@media (max-width: 575.98px) {
+  /* CSS rules for extra small devices go here */
+  .body-content .services-section .service-heading p {
+    width: 80%;
+  }
+
+  .body-content .index-section p {
+    font-size: 35px;
+  }
+
+  .animated-text {
+    font-size: 25px !important;
+  }
+}
+
+/* Small devices (tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* CSS rules for small devices go here */
+
+  .body-content .index-section p {
+    font-size: 45px;
+  }
+
+  .animated-text {
+    font-size: 27px !important;
+  }
+}
+
+/* Medium devices (desktops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* CSS rules for medium devices go here */
+  .body-content .services-section .service-heading p {
+    width: 70%;
+  }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* CSS rules for large devices go here */
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {
+  /* CSS rules for extra large devices go here */
 }

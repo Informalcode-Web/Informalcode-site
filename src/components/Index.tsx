@@ -12,8 +12,8 @@ import {
 const HomeSection: React.FC = () => {
   return (
     <div id="home" className="index-section p-5 p-xl-5">
-      <div className="row">
-        <div className="col-xl-6 col-md-6 col-sm-6 col-12 p-xl-5">
+      <div className="row mt-5">
+        <div className="col-xl-6 col-md-6 col-sm-12 col-12 p-xl-5">
           <p className="mb-0">Unleashing the Potential</p>
           <p className="mb-0">of Technology for</p>
           <p className="for-u mb-4">Your Business</p>
@@ -28,7 +28,7 @@ const HomeSection: React.FC = () => {
           </div>
           <button className="btn btn-started">Get Started</button>
         </div>
-        <div className="col-xl-6 col-md-6 col-sm-6 col-12 p-xl-5 index-section-image"></div>
+        <div className="col-xl-6 col-md-6 col-sm-12 col-12 p-xl-5 index-section-image"></div>
       </div>
     </div>
   );
@@ -39,7 +39,7 @@ const ServicesSection: React.FC = () => {
     <div id="service" className="services-section p-xl-5 p-sm-4 p-4">
       <div className="row">
         <div className="col-xl-12 col-md-12 col-sm-12 col-12 service-heading">
-          <h1 className="mb-3">Our Services</h1>
+          <h2 className="mb-3">Our Services</h2>
           <p className="m-auto">
             Contact our experts to find out where to start, how we can transform
             your business ideas into a working solution.
