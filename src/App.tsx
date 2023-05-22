@@ -6,11 +6,11 @@ import PageController from './components/pageController';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '@fortawesome/fontawesome-free/css/all.css';
-import { HomeSection } from './components/Sections/homeSection';
-import { ServicesSection } from './components/Sections/serviceSection';
-import { AboutSection } from './components/Sections/aboutSection';
-import { CareerSection } from './components/Sections/careerSection';
-import { ContactSection } from './components/Sections/contactSection';
+import { HomeSection } from './components/Sections/HomeSection';
+import { ServicesSection } from './components/Sections/ServiceSection';
+import { AboutSection } from './components/Sections/AboutSection';
+import { CareerSection } from './components/Sections/CareerSection';
+import { ContactSection } from './components/Sections/ContactSection';
 
 function App() {
   useEffect(() => {
