@@ -29,7 +29,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  font-family:"Open Sans",sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -59,7 +59,7 @@ button:focus-visible {
 #page-header {
   width: 100%;
   position: fixed;
-  top:0;
+  top: 0;
   z-index: 1;
   box-shadow: 3px 5px 20px 0px #eeeeeeee;
 }
@@ -76,14 +76,14 @@ button:focus-visible {
 
 #page-header .navbar-nav .btn {
   color: #fff !important;
-  background: #F67280 !important;
+  background: #f67280 !important;
   font-weight: bold;
 }
 
 #page-header .navbar-nav .btn:hover {
-  color: #F67280 !important;
+  color: #f67280 !important;
   background: #fff !important;
-  border: 1px solid #F67280 !important;
+  border: 1px solid #f67280 !important;
 }
 
 #page-header .navbar-nav .nav-link.active {
@@ -104,8 +104,10 @@ button:focus-visible {
 }
 
 .body-content .index-section {
-  width: 100%;
-  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .body-content .index-section p {
@@ -115,7 +117,7 @@ button:focus-visible {
 }
 
 .body-content .index-section .for-u {
-  color:#0097b2;
+  color: #0097b2;
 }
 
 .body-content .index-section .sloagan-desc {
@@ -124,15 +126,9 @@ button:focus-visible {
   color: #463f57;
 }
 
-.body-content .index-section .index-section-image img{
+.body-content .index-section .index-section-image img {
   width: 100%;
-  height: 100%; 
-}
-
-.body-content .index-section{
-  background-image: url(./images/IntroBackground_Resized.png);
-  background-repeat:no-repeat;
-  background-size: cover;
+  height: 100%;
 }
 
 #animated-container {
@@ -161,32 +157,32 @@ button:focus-visible {
   height: fit-content;
 }
 
-  .body-content .services-section .service-heading h2{
-      text-align: center;
-      color: #463f57;
-      font-weight: bold;
-  }
+.body-content .services-section .service-heading h2 {
+  text-align: center;
+  color: #463f57;
+  font-weight: bold;
+}
 
-  .body-content .services-section .service-heading p {
-      text-align: center;
-      width: 30%;
-  }
+.body-content .services-section .service-heading p {
+  text-align: center;
+  width: 30%;
+}
 
-  .body-content .services-section .card {
-      height: 100%;
-      border: none;
-      box-shadow: 5px 5px 20px 5px #eeeeeeee;
-      border-radius: 10px;
-      transition: all .3s ease-in-out;
-    }
+.body-content .services-section .card {
+  height: 100%;
+  border: none;
+  box-shadow: 5px 5px 20px 5px #eeeeeeee;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
 
-  .body-content .services-section .card:hover {
-    transform: scale(1.05);
-  }
+.body-content .services-section .card:hover {
+  transform: scale(1.05);
+}
 
-  .body-content .services-section .card:hover h4 {
-    color: #0097b2;
-  }
+.body-content .services-section .card:hover h4 {
+  color: #0097b2;
+}
 
 .body-content .services-section .card h4 {
   color: #463f57;
@@ -204,7 +200,7 @@ button:focus-visible {
   background: #f5f8fd;
 }
 
-.body-content .services-section .service-icon svg{
+.body-content .services-section .service-icon svg {
   font-size: 35px;
   color: #0097b2;
 }
@@ -213,7 +209,6 @@ button:focus-visible {
   font-size: 18px;
   text-align: center;
   color: #463f57;
-
 }
 
 @media (prefers-color-scheme: light) {

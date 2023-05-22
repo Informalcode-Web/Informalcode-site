@@ -1,7 +1,7 @@
 const CareerSection: React.FC = () => {
   return (
     <div className='career-section p-5'>
-      <div className='row'>Career</div>
+      <h1>Career Section</h1>
     </div>
   );
 };

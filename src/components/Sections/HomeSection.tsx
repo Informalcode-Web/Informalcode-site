@@ -1,8 +1,16 @@
 import bgImage from '../../images/Tema-pana-red-cropped.png';
-
+import coverImage from '../../images/IntroBackground_Resized.png';
 const HomeSection: React.FC = () => {
   return (
-    <div className='index-section p-5 p-xl-5'>
+    <div
+      className='index-section p-5 p-xl-5'
+      style={{
+        minHeight: '100vh',
+        backgroundImage: `url(${coverImage})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+      }}
+    >
       <div className='row mt-3 mb-5'>
         <div className='col-xl-6 col-md-6 col-sm-12 col-12 p-xl-5'>
           <p className='mb-0'>Unleashing the Potential</p>

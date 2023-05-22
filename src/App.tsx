@@ -28,19 +28,19 @@ function App() {
     <div className='body-content mt-5'>
       <Header />
       <main>
-        <section id='home'>
+        <section id='home' className='section'>
           <HomeSection />
         </section>
-        <section id='service'>
+        <section id='service' className='section'>
           <ServicesSection />
         </section>
-        <section id='about'>
+        <section id='about' className='section'>
           <AboutSection />
         </section>
-        <section id='career'>
+        <section id='career' className='section'>
           <CareerSection />
         </section>
-        <section id='contact'>
+        <section id='contact' className='section'>
           <ContactSection />
         </section>
       </main>
