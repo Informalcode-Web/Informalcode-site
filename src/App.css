@@ -40,3 +40,11 @@
 .read-the-docs {
   color: #888;
 }
+
+.section {
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 3em;
+}
