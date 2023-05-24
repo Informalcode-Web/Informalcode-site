@@ -25,7 +25,7 @@ const HomeSection: React.FC = () => {
             <p className='animated-text'>Database Design</p>
             <p className='animated-text'>Maintenance</p>
           </div>
-          <button className='btn btn-started'>Get Started</button>
+          <a className='btn btn-started' href="#service">Get Started</a>
         </div>
         <div className='col-xl-6 col-md-6 col-sm-12 col-12 p-xl-5 index-section-image'>
           <img src={bgImage}></img>

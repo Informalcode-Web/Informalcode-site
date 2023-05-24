@@ -28,7 +28,7 @@ const Header: React.FC = () => {
     <header id='page-header'>
       <nav className='navbar navbar-expand-lg bg-white px-xl-5 px-sm-1'>
         <div className='container-fluid'>
-          <a className='navbar-brand' href='#'>
+          <a className='navbar-brand' href='#home'>
             <img src={Logo} width='150' height='45' alt='Logo' />
           </a>
           <button
