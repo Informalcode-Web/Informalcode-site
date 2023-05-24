@@ -13,19 +13,13 @@ import { CareerSection } from './components/Sections/CareerSection';
 import { ContactSection } from './components/Sections/ContactSection';
 import UnderConstruction from './components/UnderConstruction';
 
-// Links for under construction page
-import './assets/UnderConstruction/style.css';
-import './assets/UnderConstruction/bootstrap-icons/bootstrap-icons.css';
-//import './assets/UnderConstruction/main.js';
-
 function App() {
   useEffect(() => {
     const pageController = new PageController();
     pageController.ready();
   }, []);
 
-  if (process.env.NODE_ENV !== 'production') {
-
+  if (process.env.NODE_ENV === 'production') {
     return <UnderConstruction />;
   }
   return (
