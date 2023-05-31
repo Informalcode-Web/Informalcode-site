@@ -3,8 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import PageController from './components/pageController';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 import '@fortawesome/fontawesome-free/css/all.css';
 import { HomeSection } from './components/Sections/HomeSection';
 import { ServicesSection } from './components/Sections/ServiceSection';
