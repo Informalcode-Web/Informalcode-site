@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Logo from '../../images/full-new-logo-tp-bg.png';
-import './style.css';
+//import './style.css';
 import './bootstrap-icons/bootstrap-icons.css';
 
 interface CountdownTime {
