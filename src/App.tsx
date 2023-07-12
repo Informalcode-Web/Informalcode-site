@@ -11,7 +11,7 @@ import { ServicesSection } from './components/Sections/ServiceSection';
 import { AboutSection } from './components/Sections/AboutSection';
 import { CareerSection } from './components/Sections/CareerSection';
 import { ContactSection } from './components/Sections/ContactSection';
-import UnderConstruction from './components/UnderConstruction';
+//import UnderConstruction from './components/UnderConstruction';
 
 function App() {
   useEffect(() => {
@@ -19,9 +19,9 @@ function App() {
     pageController.ready();
   }, []);
 
-  if (process.env.NODE_ENV === 'production') {
-    return <UnderConstruction />;
-  }
+  // if (process.env.NODE_ENV === 'production') {
+  //   return <UnderConstruction />;
+  // }
   return (
     <div className='body-content mt-5'>
       <Header />
