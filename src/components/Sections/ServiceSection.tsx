@@ -20,7 +20,7 @@ const ServicesSection: React.FC = () => {
           </p>
         </div>
       </div>
-      <div className='row'>
+      <div className='row px-0 px-md-5'>
         <div className='col-xl-4 col-md-4 col-sm-6 col-12 p-xl-5 p-sm-2 p-2 px-4'>
           <div className='card py-3 px-4 align-items-center'>
             <div className='service-icon mb-3 align-items-center d-flex justify-content-center'>

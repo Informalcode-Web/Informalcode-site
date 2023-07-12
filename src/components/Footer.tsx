@@ -1,6 +1,6 @@
 //todo
 import React from 'react'
-import Logo from '../images/InformalCode-title-Logo.png'
+import Logo from '../assets/images/InformalCode-title-Logo.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faFacebook, faInstagram, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 

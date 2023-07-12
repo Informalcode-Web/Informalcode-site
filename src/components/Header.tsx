@@ -1,6 +1,6 @@
 //todo
 import React from 'react';
-import Logo from '../images/Informalcode-logo.png';
+import Logo from '../assets/images/Informalcode-logo.png';
 import { Link } from 'react-scroll';
 
 const Header: React.FC = () => {

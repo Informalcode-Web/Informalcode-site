@@ -233,12 +233,24 @@ button:focus-visible {
 
   .body-content .index-section p {
     font-size: 30px;
+    
   }
 
   .animated-text {
     font-size: 20px !important;
   }
+
+  
 }
+
+@media (min-width: 575.98px) {
+  /* CSS rules for extra small devices go here */
+  .body-content .index-section{
+    min-height: 100vh;
+  }
+  
+}
+
 
 /* Small devices (tablets) */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -277,4 +289,17 @@ button:focus-visible {
 /* Extra large devices (large desktops) */
 @media (min-width: 1200px) {
   /* CSS rules for extra large devices go here */
+}
+
+.aboutImg img {
+  width: 80%;
+}
+
+.aboutPara{
+  font-size: 20px;
+  color: rgb(88, 85, 85);
+}
+.abt-row{
+  display: flex;
+  align-items: center;
 }
