@@ -2,3 +2,50 @@
   margin: 0;
   font-family: Epilogue;
 }
+
+.promotion-heading {
+  font-family: 'Epilogue';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -1.92px;
+  text-align: center;
+}
+
+.promotion-paragrapgh {
+  color: #6A6A6A;
+  text-align: center;
+  /* Paragraph/P1/Regular */
+  font-family: Epilogue;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* padding-top: 32px; */
+}
+
+.promo-btn {
+  display: flex;
+  padding: 10px 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 40px; */
+
+}
+
+.promo-Img {
+  height: 100%;
+  width: 100%;
+  align-self: stretch;
+}
+
+.promo-container {
+  display: flex;
+  padding: var(--none, 0px) 120px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  align-self: stretch;
+}
