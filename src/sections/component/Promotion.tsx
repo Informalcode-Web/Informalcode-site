@@ -6,7 +6,6 @@ function Promotion() {
     return (
         <>
             <div className="promo-container">
-
                 <h1 className="promotion-heading">Best crafted, just for you</h1>
                 <p className="promotion-paragrapgh">
                     At Informalcode, we craft your idea and make it come to life , whether it is a product or web design
