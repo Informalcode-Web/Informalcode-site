@@ -1,7 +1,5 @@
-import React from "react";
 import "../../index.css"
-import { Typography, Button } from '@mui/material';
-import theme from "../../common/theme";
+import { Button } from '@mui/material';
 import promotionImg from "../assets/promotionImg.png"
 
 function Promotion() {

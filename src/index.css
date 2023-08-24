@@ -49,3 +49,76 @@
   gap: 40px;
   align-self: stretch;
 }
+
+.contact-container {
+  display: flex;
+  padding: 48px 120px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+
+
+@media (max-width: 768px) {
+  .promo-container {
+    padding: var(--none, 0px) 20px; /* Adjust the padding for mobile view */
+  }
+  .contact-container {
+    padding: 32px 24px;
+  }
+}
+
+
+.contact-heading {
+  color: var(--text-black, #121212);
+  /* Heading/H1/Bold */
+  font-family: Epilogue;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  /* 116.667% */
+  letter-spacing: -1.92px;
+}
+
+.contact-paragraph {
+  color: #6A6A6A;
+
+  /* Paragraph/P1/Regular */
+  font-family: Epilogue;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 144.444% */
+}
+
+.contact-forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Make sure the form takes the full height of the grid cell */
+  width: 100%;
+}
+
+.contact-labels {
+  color: #000;
+  font-family: Epilogue;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  /* 150% */
+}
+
+.cntInp {
+  width: 100%;
+}
+
+.contact-Img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+}
