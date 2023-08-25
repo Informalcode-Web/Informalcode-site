@@ -1,4 +1,3 @@
-import { Button, AppBar, Toolbar, Typography } from '@mui/material';
 import Navbar from './common/navbar';
 import Contact from './sections/component/Contact';
 import Promotion from './sections/component/Promotion';
@@ -8,7 +7,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Promotion />
+      <Promotion /> 
       <Contact />
       <Footer />
     </>

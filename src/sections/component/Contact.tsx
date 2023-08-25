@@ -1,11 +1,16 @@
 import "../../index.css"
 import { Grid, Button, TextField } from '@mui/material';
 import teamImg from "../assets/informalTeamForm.jpg"
+import { useSpring, animated } from 'react-spring';
+import { upAnimation } from '../partials/reactSpringAnimate';
+
 
 function Contact() {
+    const animationProps = useSpring(upAnimation);
+
     return (
         <>
-            <div className="contact-container">
+            <animated.div className="contact-container" style={animationProps}>
                 <h1 className="contact-heading">Why wait? Talk to us</h1>
                 <p className="contact-paragraph">Need a website or a product to be built? Talk to us.</p>
                 <Grid container spacing={2}>
@@ -32,7 +37,7 @@ function Contact() {
                     </Grid>
                 </Grid>
 
-            </div>
+            </animated.div>
         </>
     )
 }

@@ -2,12 +2,30 @@
 
 import { Grid } from '@mui/material';
 import logo from "../sections/assets/Logo-with-name.png"
+import { useSpring, animated } from 'react-spring';
+import { upAnimation } from '../sections/partials/reactSpringAnimate';
 
 
 function Footer() {
+
+    const animationProps = useSpring(upAnimation);
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    };
+
     return (
         <>
-            <div className="footer-container">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <animated.div className="footer-container" style={animationProps}>
                 <div className="social-media">
                     {/* insta */}
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -39,7 +57,7 @@ function Footer() {
                             </Grid>
                         </Grid>
                     </div>
-                    <div className="footer-arrow">
+                    <div className="footer-arrow" onClick={scrollToTop}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                             <path d="M17.3333 26.6666H14.6667V10.6666L7.33334 18L5.44 16.1066L16 5.54663L26.56 16.1066L24.6667 18L17.3333 10.6666V26.6666Z" fill="white" />
                         </svg>
@@ -55,7 +73,7 @@ function Footer() {
                         </Grid>
                     </div>
                 </div>
-            </div>
+            </animated.div>
         </>
     )
 }
