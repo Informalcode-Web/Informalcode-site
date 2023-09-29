@@ -1,8 +1,9 @@
-import { Box, Button, Container, Stack, Typography } from '@mui/material';
+import { Box, Button, Typography } from '@mui/material';
 import wavyDesign from '../assets/wavyDesign.webp';
 import { animated, useTrail } from 'react-spring';
 import { upAnimation } from '../partials/reactSpringAnimate';
 import LogoAnimation from '../partials/logoAnimateContainer';
+import '../util/animation.css';
 
 const HeroSection = () => {
   const textSprings = useTrail(3, upAnimation);
@@ -94,29 +95,8 @@ const HeroSection = () => {
         >
           Powering your business with the latest technologies
         </Typography>
-        <Stack
-          style={{
-            width: '696px',
-            backgroundColor: 'red',
-            height: '56px',
-            marginTop: '32px',
-            overflow: 'hidden',
-            position: 'relative',
-          }}
-        >
-          <div
-            style={{
-              backgroundImage:
-                'linear-gradient(90deg, #FFF 4.90%, rgba(255, 255, 255, 0.00) 19.06%, rgba(255, 255, 255, 0.00) 46.89%, rgba(255, 255, 255, 0.00) 85.42%, #FFF 100%)',
-              position: 'absolute', // Set the position to absolute
-              top: 0,
-              left: 0,
-              width: '100%',
-              height: '100%',
-            }}
-          />
-          <LogoAnimation />
-        </Stack>
+
+        <LogoAnimation />
       </Box>
     </div>
   );

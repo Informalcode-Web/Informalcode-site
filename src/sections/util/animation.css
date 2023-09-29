@@ -1,0 +1,33 @@
+.scroll {
+  margin-top: 10px;
+  max-width: 690px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    white 20%,
+    white 80%,
+    transparent
+  );
+  mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+}
+
+.scroll__inner {
+  width: max-content;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% + 1.2rem));
+  }
+}
